@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 100px;
+    width: calc(100vw - 150px );
+    background-color: #090b13;
+    top: 0;
+    left: 0;
+    float: right;   
+    
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: #141922;
+}
+
+footer{
+    height: 100px;
+    background-color: #5b5b5b;
+}
+
+#sidebar{
+    height: 100%;
+    width: 150px;
+    background-color: black;
+}
+
+#sidebar-content{
+    height: 100%
+
+}
+
+.container{ 
+    height: calc()
+
+}
