@@ -11,9 +11,6 @@ header{
     top: 0;
     position: sticky;
     z-index: 1;
-    
-   
-    
 }
 
 main{
@@ -25,7 +22,7 @@ main{
 
 footer{
     height: 100px;
-    background-color: #5b5b5b;
+    background-color: #222;
 }
 
 /* Sidebar */
@@ -126,6 +123,30 @@ ul li{
     margin-bottom: 15px;
 }
 
+/* Footer */
+
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+
+.containergrande{
+
+}
+
+.icone{
+    font-size: 15px;
+    margin: 10px 0px 10px 160px;
+    
+}
+
+.containerpiccolo img{
+    width: 60px;
+    padding: 20px 10px;
+}
 
 
 /* Utility */
@@ -142,8 +163,20 @@ ul li{
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
+.justify-center{
+    justify-content: flex-end;
+}
+
 .flex-end{
     justify-content: flex-end;
+}
+
+.baseline{
+    justify-content: baseline;
 }
 
 .mtop10{
@@ -154,16 +187,32 @@ ul li{
     margin-top: 20px;
 }
 
+.mtop30{
+    margin-top: 30px;
+}
+
 .mtop40{
     margin-top: 40px;
+}
+
+.mleft10{
+    margin-left: 10px;  
 }
 
 .mleft15{
     margin-left: 15px;  
 }
 
+.mleft30{
+    margin-left: 30px;
+}
+
 .mleft40{
     margin-left: 40px;
+}
+
+.mright40{
+    margin-right: 40px;
 }
 .mbot10{
     margin-bottom: 10px;
@@ -187,4 +236,19 @@ ul li{
 
 .tondo{
     border-radius: 50%;
+}
+
+.iconagrande{
+    font-size: 25px
+}
+
+.play{
+    background-color: red;
+    height: 3px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+.centraitem{
+    align-items: center;
 }
