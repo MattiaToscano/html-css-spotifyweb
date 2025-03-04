@@ -10,6 +10,7 @@ header{
     background-color: #090b13;
     top: 0;
     position: sticky;
+    z-index: 1;
     
    
     
@@ -90,6 +91,7 @@ ul li{
 
 .container{ 
     width: calc(100% - 100px);
+    overflow-y: auto;
 }
 
 .lista-intestazione{
@@ -108,6 +110,7 @@ ul li{
     width: 95%;
     margin:40px 40px;
     display: flex;
+   
 }
 
 .card{
@@ -159,6 +162,9 @@ ul li{
     margin-left: 15px;  
 }
 
+.mleft40{
+    margin-left: 40px;
+}
 .mbot10{
     margin-bottom: 10px;
 }
@@ -177,4 +183,8 @@ ul li{
 
 .center{
     text-align: center;
+}
+
+.tondo{
+    border-radius: 50%;
 }
