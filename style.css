@@ -6,17 +6,20 @@
 
 header{
     height: 100px;
-    width: calc(100vw - 150px );
+    width: 100;
     background-color: #090b13;
     top: 0;
-    left: 0;
-    float: right;   
+    position: sticky;
+    
+   
     
 }
 
 main{
     height: calc(100vh - 100px);
     background-color: #141922;
+    display: flex;
+    
 }
 
 footer{
@@ -25,17 +28,43 @@ footer{
 }
 
 #sidebar{
-    height: 100%;
-    width: 150px;
+    height: calc(100vh - 165px);
+    width: 200px;
     background-color: black;
+    color: white;
+   
 }
 
-#sidebar-content{
-    height: 100%
+#sidebar-logo{
+    width: 70%;
+    margin: 15px 15px 30px 15px
+   
+}
+
+#sidebar-hiddenlogo{
+    width: 50%;
+    margin-left: 35px;
+    display: none;
+
 
 }
+
+#sidebar-home{
+    width: 20%;
+
+}
+
+#sidebar-footer{
+
+    
+}
+
+
+
+
+
+
 
 .container{ 
-    height: calc()
-
+    width: calc(100% - 100px);
 }
