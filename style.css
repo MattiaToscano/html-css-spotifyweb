@@ -6,7 +6,7 @@
 
 header{
     height: 100px;
-    width: 100;
+    width: 100%;
     background-color: #090b13;
     top: 0;
     position: sticky;
@@ -27,37 +27,81 @@ footer{
     background-color: #5b5b5b;
 }
 
+/* Sidebar */
+
 #sidebar{
-    height: calc(100vh - 165px);
-    width: 200px;
+    height: calc(100vh - 100px);
+    width: 250px;
     background-color: black;
     color: white;
-   
 }
 
 #sidebar-logo{
     width: 70%;
     margin: 15px 15px 30px 15px
-   
 }
 
 #sidebar-hiddenlogo{
-    width: 50%;
+    width: 100%;
     margin-left: 35px;
     display: none;
-
-
 }
 
-#sidebar-home{
-    width: 20%;
+ul li{
+    display:inline-block;
+    list-style-type: none;
+}
 
+#sidebar-home ul li{
+    width: 15%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#sidebar-playlist ul li {
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: grey;
+    margin-left: 15px;
+    
 }
 
 #sidebar-footer{
-
-    
+    width: 20%;
+   
 }
+
+/* Header */
+
+.upgrade{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    border: 1px solid white;
+    width: 200px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,4 +111,44 @@ footer{
 
 .container{ 
     width: calc(100% - 100px);
+}
+
+
+/* Utility */
+
+.d-flex{
+    display: flex; 
+}
+
+
+.direction-column{
+    flex-direction:column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.mtop10{
+    margin-top: 10px;
+}
+
+.mtop20{
+    margin-top: 20px;
+}
+
+.mtop40{
+    margin-top: 40px;
+}
+
+.mleft15{
+    margin-left: 15px;  
+}
+
+.mbot10{
+    margin-bottom: 10px;
+}
+
+.mbot30{
+    margin-bottom: 30px;
 }
