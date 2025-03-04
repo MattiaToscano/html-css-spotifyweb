@@ -149,6 +149,24 @@ ul li{
 }
 
 
+.play{
+    background-color: grey;
+    height: 3px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+.record{
+    background-color: #fff;
+    height: 3px;
+    width: 100px;
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+    bottom:5px
+
+}
+
 /* Utility */
 
 .d-flex{
@@ -242,12 +260,7 @@ ul li{
     font-size: 25px
 }
 
-.play{
-    background-color: red;
-    height: 3px;
-    width: 400px;
-    margin-top: 5px;
-}
+
 
 .centraitem{
     align-items: center;
