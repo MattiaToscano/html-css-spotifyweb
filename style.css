@@ -80,36 +80,49 @@ ul li{
     color: white;
     background-color: transparent;
     border: 1px solid white;
-    padding: 10px 40px;
+    padding: 10px 35px;
     margin-right: 10px;
     border-radius: 20px 20px 20px 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Container */
 
 
 .container{ 
     width: calc(100% - 100px);
 }
+
+.lista-intestazione{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: gray;
+}
+
+.lista-intestazione ul li{
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.content{
+    width: 95%;
+    margin:40px 40px;
+    display: flex;
+}
+
+.card{
+    width: 17%;
+    height: 17%;
+    margin-top: 30px;
+    margin: 5px;
+    color: white;
+}
+
+.cardcontent img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 
 
 /* Utility */
@@ -117,7 +130,6 @@ ul li{
 .d-flex{
     display: flex; 
 }
-
 
 .direction-column{
     flex-direction:column;
@@ -130,8 +142,6 @@ ul li{
 .flex-end{
     justify-content: flex-end;
 }
-
-
 
 .mtop10{
     margin-top: 10px;
@@ -155,4 +165,16 @@ ul li{
 
 .mbot30{
     margin-bottom: 30px;
+}
+
+.white{
+    color: white;
+}
+
+.grey{
+    color: grey;
+}
+
+.center{
+    text-align: center;
 }
