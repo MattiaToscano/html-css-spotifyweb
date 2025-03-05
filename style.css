@@ -336,7 +336,6 @@ ul li{
         color: white;
     }
 
-
     .lista-intestazione{
         display: flex;
         justify-content: center;
@@ -344,14 +343,10 @@ ul li{
         color: gray;
     }
 
-
-
-    .lista-intestazione ul li{
-            
+    .lista-intestazione ul li{  
             margin-top: 15px;
             color: gray;
             font-size: 13px;
-        
     }
 
     .play{
@@ -379,7 +374,7 @@ ul li{
 
     #sidebar-footer{
         width: 80%;
-        position: relative;
+        position:relative;
         top: 280px;
     }
 
@@ -393,4 +388,93 @@ ul li{
         
     }
     
+}
+
+
+@media screen and (max-width: 576px){
+
+
+    main{
+        width: 100vw;
+    }
+
+    header{
+        width: 100%;   
+    }
+
+    .container{
+        width: 100vw;
+        overflow-x: hidden;
+        
+    }   
+
+
+    .play{
+        background-color: grey;
+        height: 3px;
+        width: 150px;
+        margin-top: 5px;
+    }
+    
+    .record{
+        background-color: #fff;
+        height: 3px;
+        width: 25px;
+        margin-top: 5px;
+        display: flex;
+        position: relative;
+        bottom:5px
+    }
+
+    .card{
+        width: 45%;
+        height: 45%;
+        margin-top: 30px;
+        margin: 5px;
+        color: white;
+    }
+
+
+    .volume{
+        background-color: grey;
+        height: 3px;
+        width: 30px;
+        margin-top: 5px;
+        
+    }
+    
+    .regola{
+        background-color: #fff;
+        height: 3px;
+        width: 10px;
+        margin-top: 5px;
+        display: flex;
+        position: relative;
+        bottom:5px
+    }
+
+    .containerpiccolo img{
+        width: 80px;
+        padding: 20px 10px;
+       
+    }
+
+    .containerpiccolo{
+        display: flex;
+        position:relative;
+        right: 45px;
+    }
+
+    .lista-intestazione ul li{  
+        margin-top: 25px;
+        color: gray;
+        font-size: 13px;
+    }
+
+    div .grey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
