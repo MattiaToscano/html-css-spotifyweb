@@ -153,9 +153,6 @@ ul li{
     font-size: 12px;
 }
 
-.containergrande{
-
-}
 
 .icone{
     font-size: 15px;
@@ -163,9 +160,13 @@ ul li{
     
 }
 
-.containerpiccolo img{
+.containerpiccolosinistra img{
     width: 60px;
     padding: 20px 10px;
+}
+
+.containerpiccolo{
+
 }
 
 
@@ -477,4 +478,76 @@ ul li{
         align-items: center;
     }
 
+}
+
+@media screen and (max-width: 500px){
+
+
+    #sidebar-home ul li span{
+        width: 15%;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+
+
+    #sidebar-footer{
+        width:70%;
+        position: relative;
+        top: 460px;
+    }
+
+    #sidebar-home ul li {
+        width: 55%;
+    }
+
+    #sidebar-footer img{
+        width: 125%;
+    }
+
+    #sidebar-logo{
+        width: 70%;
+        margin: 15px 15px 30px 15px;
+        display: none;
+    }
+    
+    #sidebar-hiddenlogo{
+        width: 50%;
+        margin: 15px;
+        display: inline-block;
+    }
+
+    #sidebar-playlist ul li {
+        display: none;
+    }
+
+    strong{
+        display: none;
+    }
+
+    #sidebar span{
+        display: none;
+    }
+        
+    #sidebar{
+        height: calc(100vh - 100px);
+        width: 50px;
+        background-color: black;
+        color: white;
+    }
+
+    .containergrande{
+       position: relative;
+       right: 55px;
+        
+    }
+
+    .containerpiccolo{
+        position:relative;
+        right: 110px;
+    }
+
+    
+    
 }
