@@ -50,12 +50,29 @@ ul li{
     list-style-type: none;
 }
 
+#sidebar-home{
+    color: grey;
+}
+
+#sidebar-home span:hover{
+    color: white;
+}
+
 #sidebar-home ul li{
     width: 15%;
     margin-left: 15px;
     display: flex;
     align-items: center;
 }
+
+span{
+    color: grey;
+}
+
+span:hover{
+    color: white;
+}
+
 
 .bordo{
     background-color:  grey;
@@ -102,6 +119,10 @@ ul li{
     border-radius: 20px 20px 20px 20px;
 }
 
+.upgrade:hover{
+    font-size: 18px;
+}
+
 /* Container */
 
 
@@ -117,9 +138,23 @@ ul li{
     color: gray;
 }
 
+.lista-intestazione span{
+    border: 4px solid green;
+    border-radius: 25%;
+    border-left: black;
+    border-top: black;
+    border-right: black;
+    
+    
+}
+
 .lista-intestazione ul li{
     margin-left: 50px;
     font-size: 12px;
+}
+
+.lista-intestazione ul li:hover{
+    color: white;
 }
 
 .content{
@@ -138,10 +173,41 @@ ul li{
     color: white;
 }
 
+.cardcontent{
+    position: relative;
+}
+
 .cardcontent img{
     width: 100%;
     margin-bottom: 15px;
 }
+
+
+.album{
+    
+}
+
+.album-hover{
+    position: absolute;
+    top: 0;
+    font-size: 100px;
+    transform: translate(+30%, +25%);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.album-hover:hover{
+   opacity: 1;
+
+}
+
+
+
+
+
+
+
 
 /* Footer */
 
@@ -165,9 +231,14 @@ ul li{
     padding: 20px 10px;
 }
 
+div .grey:hover{
+    color: white;
+}
+
 .containerpiccolo{
 
 }
+
 
 
 .play{
@@ -187,6 +258,11 @@ ul li{
     bottom:5px
 }
 
+.record:hover{
+    background-color: green;
+   
+}
+
 .volume{
     background-color: grey;
     height: 3px;
@@ -202,6 +278,11 @@ ul li{
     display: flex;
     position: relative;
     bottom:5px
+}
+
+.regola:hover{
+    background-color: green;
+   
 }
 
 /* Utility */
@@ -388,7 +469,6 @@ ul li{
         margin-left: 15px;
         
     }
-    
 }
 
 
