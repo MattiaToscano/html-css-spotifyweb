@@ -126,6 +126,7 @@ ul li{
     width: 95%;
     margin:40px 40px;
     display: flex;
+    
    
 }
 
@@ -299,8 +300,97 @@ ul li{
     font-size: 25px
 }
 
-
-
 .centraitem{
     align-items: center;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+   
+    main{
+        width: 100vw;
+    }
+
+    header{
+        width: 100%;   
+    }
+
+    .container{
+        width: 100vw;
+        overflow-x: hidden;
+    }   
+
+
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 20%;
+        height: 20%;
+        margin-top: 30px;
+        margin: 5px;
+        color: white;
+    }
+
+
+    .lista-intestazione{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        color: gray;
+    }
+
+
+
+    .lista-intestazione ul li{
+            
+            margin-top: 15px;
+            color: gray;
+            font-size: 13px;
+        
+    }
+
+    .play{
+        background-color: grey;
+        height: 3px;
+        width: 200px;
+        margin-top: 5px;
+    }
+    
+    .record{
+        background-color: #fff;
+        height: 3px;
+        width: 50px;
+        margin-top: 5px;
+        display: flex;
+        position: relative;
+        bottom:5px
+    }
+
+    .icone{
+        position: relative;
+        transform: translate(-55%, -5%);
+        top
+    }
+
+    #sidebar-footer{
+        width: 80%;
+        position: relative;
+        top: 280px;
+    }
+
+    #sidebar-playlist ul li {
+        margin-top:25px;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        color: grey;
+        margin-left: 15px;
+        
+    }
+    
 }
