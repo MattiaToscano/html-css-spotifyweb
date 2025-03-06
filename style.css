@@ -71,6 +71,7 @@ span{
 
 span:hover{
     color: white;
+    transition: 0.3s;
 }
 
 .bordo{
@@ -149,6 +150,7 @@ span:hover{
 
 .lista-intestazione ul li:hover{
     color: white;
+    transition: 0.3s;
 }
 
 .content{
@@ -187,6 +189,7 @@ span:hover{
     opacity: 0;
     width: 100%;
     height: 100%;
+    transition: 0.3s;
 }
 
 .album-hover:hover{
@@ -217,6 +220,7 @@ span:hover{
 
 div .grey:hover{
     color: white;
+    transition: 0.3s;
 }
 
 .containerpiccolo{
@@ -278,7 +282,7 @@ div .grey:hover{
 }
 
 .volume:hover .pallinabiancavolume{
-    transform: scale(1.2);
+       transform: scale(1.2);
        transition: 0.3s;
        opacity: 1;
 }
