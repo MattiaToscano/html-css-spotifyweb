@@ -594,6 +594,9 @@ div .grey:hover{
         display: none;
     }
 
+    .bordohome{
+        border: none;
+    }
 
     #sidebar-footer{
         width:70%;
