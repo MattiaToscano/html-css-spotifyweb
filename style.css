@@ -86,6 +86,10 @@ span:hover{
     border-radius: 50%;
 }
 
+.bordohome{
+    border-left: 4px solid green;
+}
+
 #sidebar-playlist ul li {
     margin-top:10px;
     display: flex;
