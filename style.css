@@ -118,6 +118,7 @@ span:hover{
 
 .upgrade:hover{
     font-size: 18px;
+    
 }
 
 /* Container */
@@ -126,6 +127,7 @@ span:hover{
 .container{ 
     width: calc(100% - 250px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .lista-intestazione{
