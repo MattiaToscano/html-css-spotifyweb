@@ -73,20 +73,17 @@ span:hover{
     color: white;
 }
 
-
 .bordo{
     background-color:  grey;
     color: black;
     padding: 8px;
 }
 
-
 .bordoutente{
     background-color:  grey;
     color: white;
     border-radius: 50%;
 }
-
 
 #sidebar-playlist ul li {
     margin-top:10px;
@@ -95,7 +92,6 @@ span:hover{
     font-size: 15px;
     color: grey;
     margin-left: 15px;
-    
 }
 
 #sidebar-footer{
@@ -144,8 +140,6 @@ span:hover{
     border-left: black;
     border-top: black;
     border-right: black;
-    
-    
 }
 
 .lista-intestazione ul li{
@@ -161,8 +155,6 @@ span:hover{
     width: 95%;
     margin:40px 40px;
     display: flex;
-    
-   
 }
 
 .card{
@@ -203,12 +195,6 @@ span:hover{
 }
 
 
-
-
-
-
-
-
 /* Footer */
 
 .footercontent{
@@ -219,11 +205,9 @@ span:hover{
     font-size: 12px;
 }
 
-
 .icone{
     font-size: 15px;
     margin: 10px 0px 10px 160px;
-    
 }
 
 .containerpiccolosinistra img{
@@ -238,8 +222,6 @@ div .grey:hover{
 .containerpiccolo{
 
 }
-
-
 
 .play{
     background-color: grey;
@@ -258,9 +240,24 @@ div .grey:hover{
     bottom:5px
 }
 
+.palla{
+    background-color: red;
+    height: 3px;
+    width: 10px;
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+    bottom:5px;
+    left: 50px;
+    border-radius: 50%;
+    
+    
+}
+
+
+
 .record:hover{
     background-color: green;
-   
 }
 
 .volume{
@@ -282,7 +279,6 @@ div .grey:hover{
 
 .regola:hover{
     background-color: green;
-   
 }
 
 /* Utility */
@@ -386,10 +382,7 @@ div .grey:hover{
     align-items: center;
 }
 
-
-
 @media screen and (max-width: 768px){
-
    
     main{
         width: 100vw;
@@ -457,11 +450,11 @@ div .grey:hover{
     #sidebar-footer{
         width: 80%;
         position:relative;
-        top: 280px;
+        top: 100px;
     }
 
     #sidebar-playlist ul li {
-        margin-top:25px;
+        margin-top:10px;
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -488,7 +481,6 @@ div .grey:hover{
         overflow-x: hidden;
         
     }   
-
 
     .play{
         background-color: grey;
@@ -547,9 +539,15 @@ div .grey:hover{
     }
 
     .lista-intestazione ul li{  
-        margin-top: 25px;
+        margin-top: 20px;
         color: gray;
         font-size: 13px;
+    }
+
+    #sidebar-footer{
+        width: 80%;
+        position:relative;
+        top: 90px;
     }
 
     div .grey{
@@ -627,7 +625,4 @@ div .grey:hover{
         position:relative;
         right: 110px;
     }
-
-    
-    
 }
